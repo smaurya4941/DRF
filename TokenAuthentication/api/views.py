@@ -10,3 +10,4 @@ class StudentModelViewSet(viewsets.ModelViewSet):
     serializer_class=StudentSerializer
     authentication_classes=[TokenAuthentication]
     permission_classes=[IsAuthenticated]
+  
